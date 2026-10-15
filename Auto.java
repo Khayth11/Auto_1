@@ -19,4 +19,19 @@ public class Auto
         return elektrisch;
     }
 
+     public void setMarke(String neuMarke)
+    {
+        marke = neuMarke;
+    }
+    
+    public void setPs(int neuPs)
+    {
+        ps = neuPs;
+    }
+    
+    public void setElektrisch(boolean neuElektrisch)
+    {
+        elektrisch = neuElektrisch;
+    }
+    
 }
