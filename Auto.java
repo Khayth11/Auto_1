@@ -57,4 +57,8 @@ public class Auto
         elektrisch = neuElektrisch;
     }
     
+     public void printStudetn()
+    {
+        System.out.println("Auto:" + marke + "-" + ps + "Jahre" + elektrisch);
+    }
 }
